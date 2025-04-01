@@ -1,0 +1,272 @@
+[
+    {
+    "id": 1,
+    "nombre": "Mclaren570S",
+    "precio": 90,
+    "cantidad": 10,
+    "categoria": "auto",
+    "disponible": true,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_634618-MLA51917618172_102022-O.webp"
+    },
+    {
+    "id": 2,
+    "nombre": "F4 Phantom",
+    "precio": 100,
+    "cantidad": 5,
+    "categoria": "avion",
+    "disponible": false,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_856543-MLA82727360122_032025-F.webp"
+    },
+    {
+    "id": 3,
+    "nombre": "F15e",
+    "precio": 45,
+    "cantidad": 7,
+    "categoria": "avion",
+    "disponible": false,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_786005-MLU72035804701_092023-O.webp"
+    },
+    {
+    "id": 4,
+    "nombre": "Focke Wulf Ta 152 H",
+    "precio": 30,
+    "cantidad": 3,
+    "categoria": "avion",
+    "disponible": false,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_612341-MLU73320422946_122023-O.webp"
+    },
+    {
+    "id": 5,
+    "nombre": "P-51d Mustang",
+    "precio": 25,
+    "cantidad": 23,
+    "categoria": "avion",
+    "disponible": false,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_733626-MLU75767021109_042024-O.webp"
+    },
+    {
+    "id": 6,
+    "nombre": "Eurofighter Typhoon",
+    "precio": 55,
+    "cantidad": 4,
+    "categoria": "avion",
+    "disponible": false,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_948553-MLA77821393231_072024-O.webp"
+    },
+    {
+    "id": 7,
+    "nombre": "Tanque Sd.kfz. 234/2 Puma",
+    "precio": 60,
+    "cantidad": 11,
+    "categoria": "tanque",
+    "disponible": false,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_883197-MLU72966936041_112023-O.webp"
+    },
+    {
+    "id": 8,
+    "nombre": "Leopard 1",
+    "precio": 60,
+    "cantidad": 4,
+    "categoria": "tanque",
+    "disponible": false,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_868649-MLU72988096616_112023-O.webp"
+    },
+    {
+    "id": 9,
+    "nombre": "Pzkpfw. Iv Ausf.h(Panzer IV)",
+    "precio": 25,
+    "cantidad": 21,
+    "categoria": "tanque",
+    "disponible": false,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_639547-MLU72967465435_112023-O.webp"
+    },
+    {
+    "id": 10,
+    "nombre": "Leopard 2A6 / A6M",
+    "precio": 50,
+    "cantidad": 4,
+    "categoria": "tanque",
+    "disponible": false,
+    "imagen": "https://www.diorama-world.com/storage/images/image?remote=https%3A%2F%2Fwww.diorama-world.com%2FWebRoot%2FStore24%2FShops%2F92074467%2F61F0%2F040B%2F64EF%2F89F2%2FA141%2F0A0C%2F6D12%2F87E0%2FRevell_03180_Leopard_2A6_A6M_172_Modellbau_Bausatz_Plastikmodell_Diorama_Diorama-World_Panzer_Kettenfahrzeug_Geschuetz_2.jpg&shop=92074467"
+    },
+    {
+    "id": 11,
+    "nombre": "Chevy Nova Yenko 1969",
+    "precio": 80,
+    "cantidad": 3,
+    "categoria": "auto",
+    "disponible": true,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_671092-MLU72987875284_112023-O.webp"
+    },
+    {
+    "id": 12,
+    "nombre": "Shelby Gt 350 R 1966",
+    "precio": 30,
+    "cantidad": 14,
+    "categoria": "auto",
+    "disponible": true,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_689475-MLU77740804038_072024-O.webp"
+    },
+    {
+    "id": 13,
+    "nombre": "Flakpanzer Iii Ostwind",
+    "precio": 35,
+    "cantidad": 3,
+    "categoria": "tanque",
+    "disponible": false,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_680156-MLA43531460660_092020-O.webp"
+    },
+    {
+    "id": 14,
+    "nombre": "Merkava Mk.III",
+    "precio": 50,
+    "cantidad": 1,
+    "categoria": "tanque",
+    "disponible": false,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_796594-MLA51917157648_102022-O.webp"
+    },
+    {
+    "id": 15,
+    "nombre": "Sd. Kfz 138 Marder III",
+    "precio": 20,
+    "cantidad": 6,
+    "categoria": "tanque",
+    "disponible": false,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_683858-MLU72149282109_102023-O.webp"
+    },
+    {
+    "id": 16,
+    "nombre": "Bmw I8",
+    "precio": 35,
+    "cantidad": 8,
+    "categoria": "auto",
+    "disponible": true,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_892143-MLU72086052862_102023-O.webp"
+    },
+    {
+    "id": 17,
+    "nombre": "Harrier Gr.3",
+    "precio": 45,
+    "cantidad": 3,
+    "categoria": "avion",
+    "disponible": false,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_697140-MLU72488184364_102023-O.webp"
+    },
+    {
+    "id": 18,
+    "nombre": "Lockheed Sr-71 Blackbird",
+    "precio": 12,
+    "cantidad": 4,
+    "categoria": "avion",
+    "disponible": false,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_799467-MLU79077126288_092024-O.webp"
+    },
+    {
+    "id": 19,
+    "nombre": "Avro Lancaster Mk I/III",
+    "precio": 35,
+    "cantidad": 8,
+    "categoria": "avion",
+    "disponible": false,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_712195-MLA71895016174_092023-O.webp"
+    },
+    {
+    "id": 20,
+    "nombre": "F-86f-40 Sabre",
+    "precio": 25,
+    "cantidad": 7,
+    "categoria": "avion",
+    "disponible": false,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_788675-MLA77675439666_072024-O.webp"
+    },
+    {
+    "id": 21,
+    "nombre": "M4A1 76 Sherman",
+    "precio": 30,
+    "cantidad": 11,
+    "categoria": "tanque",
+    "disponible": false,
+    "imagen": "https://images.thimbletoys.com/images/items/5380014a.jpg"
+    },
+    {
+    "id": 22,
+    "nombre": "T-34/85",
+    "precio": 24,
+    "cantidad": 20,
+    "categoria": "tanque",
+    "disponible": false,
+    "imagen": "https://kasperle.com/pub/media/catalog/product/cache/68f04983fc2a2eb1e06618249c3a9918/k/p/kp0114958.jpg"
+    },
+    {
+    "id": 23,
+    "nombre": "T-72",
+    "precio": 30,
+    "cantidad": 21,
+    "categoria": "tanque",
+    "disponible": false,
+    "imagen": "https://agtom.eu/45503-home_default/zvezda-7400-t-72.jpg"
+    },    
+    {
+    "id": 24,
+    "nombre": "M1A1 (HA) Abrams",
+    "precio": 35,
+    "cantidad": 13,
+    "categoria": "tanque",
+    "disponible": false,
+    "imagen": "https://m.media-amazon.com/images/I/71rDhYO7fOL._AC_UF1000,1000_QL80_.jpg"
+    },    
+    {
+    "id": 25,
+    "nombre": "Jagdpanzer 38(t) HETZER",
+    "precio": 33,
+    "cantidad": 14,
+    "categoria": "tanque",
+    "disponible": false,
+    "imagen": "https://www.scalemodelshop.co.uk/wp-content/uploads/2022/05/1629742091-32469600.jpg"
+    },    
+    {
+    "id": 26,
+    "nombre": "Lockheed Martin F-16",
+    "precio": 20,
+    "cantidad": 4,
+    "categoria": "avion",
+    "disponible": false,
+    "imagen": "https://www.astramodel.cz/images/R/800x600/RVL03860.jpg?v=k2ar"
+    },    
+    {
+    "id": 27,
+    "nombre": "A-4E/F/G Skyhawk",
+    "precio": 20,
+    "cantidad": 31,
+    "categoria": "avion",
+    "disponible": false,
+    "imagen": "https://static.alipson.fr/m757/p472757/p8_FULL.jpg"
+    },    
+    {
+    "id": 28,
+    "nombre": " Lamborghini Countach LP500S",
+    "precio": 15,
+    "cantidad": 34,
+    "categoria": "auto",
+    "disponible": true,
+    "imagen": "https://gzhls.at/i/79/71/3297971-l0.webp"
+    },    
+    {
+    "id": 29,
+    "nombre": "Audi R8",
+    "precio": 20,
+    "cantidad": 3,
+    "categoria": "auto",
+    "disponible": true,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_735381-MLU72987923758_112023-O.webp"
+    },    
+    {
+    "id": 30,
+    "nombre": "71 Mustang Boss 351",
+    "precio": 34,
+    "cantidad": 12,
+    "categoria": "auto",
+    "disponible": true,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_631868-MLA72182607565_102023-O.webp"
+    }
+]
