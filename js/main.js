@@ -1,21 +1,24 @@
-fetch('../data.json')
-    .then(response => response.json())
-    .then(productos => {
-        container.innerHTML = ``
-        productos.forEach (el => crearCard(el))
+async function cargarProductos() {
+    try {
+        const response = await fetch('../data.json');
+        const productos = await response.json();
+
+        container.innerHTML = ``;
+        productos.forEach(el => crearCard(el));
 
         const mostrar = document.createElement("button");
         mostrar.innerText = "Mostrar carrito";
-        mostrar.classList.add("btn-2")
+        mostrar.classList.add("btn-2");
 
         const limpiar = document.createElement("button");
         limpiar.innerText = "Limpiar carrito";
-        limpiar.classList.add("btn-3")
+        limpiar.classList.add("btn-3");
 
         mostrar.addEventListener("click", () => {
             document.getElementById("carrito-div").innerHTML = "";
             carrito.forEach(el => mostrarCarrito(el));
         });
+
         limpiar.addEventListener("click", () => {
             if (carrito.length > 0) {
                 Swal.fire({
@@ -25,23 +28,23 @@ fetch('../data.json')
                     confirmButtonText: 'Sí, seguro',
                     cancelButtonText: 'No, no quiero'
                 })
-                    .then(result => {
-                        if (result.isConfirmed) {
-                            Swal.fire({
-                                title: "Carrito",
-                                text: "Se limpio el carrito",
-                                icon: "success",
-                            });
-                            carrito = [];
-                            localStorage.setItem("carrito", JSON.stringify(carrito));
-                        } else {
-                            Swal.fire({
-                                title: "Carrito",
-                                text: "No se limpio el carrito",
-                                icon: "error",
-                            });
-                        };
-                    });
+                .then(result => {
+                    if (result.isConfirmed) {
+                        Swal.fire({
+                            title: "Carrito",
+                            text: "Se limpió el carrito",
+                            icon: "success",
+                        });
+                        carrito = [];
+                        localStorage.setItem("carrito", JSON.stringify(carrito));
+                    } else {
+                        Swal.fire({
+                            title: "Carrito",
+                            text: "No se limpió el carrito",
+                            icon: "error",
+                        });
+                    }
+                });
             } else {
                 Toastify({
                     text: "El carrito está vacío. No lo podés limpiar",
@@ -51,8 +54,13 @@ fetch('../data.json')
 
         container.append(mostrar);
         container.append(limpiar);
-    })
-    .catch(error => console.error('Error al cargar los productos:', error));
+
+    } catch (error) {
+        console.error('Error al cargar los productos:', error);
+    }
+}
+
+cargarProductos();
 
 //Carrito
 
