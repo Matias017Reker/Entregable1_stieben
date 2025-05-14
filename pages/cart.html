@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diorama Store</title>
-    <link rel="icon" href="./img/favicon.ico">
-    <meta name="description" content="Pagina Principal de Diorama Store">
-    <meta name="keywords" content="informacion, usuario, compras, aviones, autos, tanques">
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Cart</title>
+    <link rel="icon" href="../img/favicon.ico">
+    <meta name="description" content="Cart de Diorama Store">
+    <meta name="keywords" content="informacion, usuario, compras, aviones, , autos, tanques">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
-
 <body>
     <header class="header">
         <nav class="navbar">
-            <a href="./index.html">
-                <img class="logo" src="./img/logo_pag.png" alt="Logo Diorama Store">
+            <a href="../index.html">
+                <img class="logo" src="../img/logo_pag.png" alt="Logo Diorama Store">
             </a>
             <label class="labe_hamburguesa" for="menu_hamburguesa">
                 <svg
@@ -37,29 +37,21 @@
             <input class="menu_hamburguesa" type="checkbox" name="" id="menu_hamburguesa">
             <ul class="ul_links">
                 <li class="li_links">
-                    <a href="#" class="link">Inicio</a>
+                    <a href="../index.html" class="link">Inicio</a>
                 </li>
                 <li class="li_links">
-                    <a href="./pages/market.html" class="link">Productos</a>
+                    <a href="../pages/market.html" class="link">Productos</a>
                 </li>
-                <a href="./pages/cart.html" id="cart-widget">
+                <a href="#" id="cart-widget">
                     🛒 <span id="cart-count">0</span>
                 </a>
             </ul>
         </nav>
     </header>
-<div class="text_box">
-    <h1>Bienvenido al Diorama Store</h1>
-    <p>Aquí encontrarás una amplia variedad de dioramas para armar, con modelos de autos, tanques y aviones de muchas epocas. Cada kit está diseñado para que disfrutes del armado y personalización, recreando escenas realistas con gran nivel de detalle.Ya seas un aficionado al modelismo o un coleccionista, tenemos opciones para todos los niveles. Explora nuestro catálogo y dale vida a tus propias creaciones. ¡Manos a la obra! 🚗✈️🚢</p>
-</div>
-<section class="carrusel-section">
-    <h2 class="titulo-carrusel">Mirá nuestras ofertas de Fin de semana automotor</h2>
-<div id="carrusel-wrapper">
-    <button class="carrusel-btn" id="prev">&#8249;</button>
-    <div id="carrusel-container"></div>
-    <button class="carrusel-btn" id="next">&#8250;</button>
-</div>
-</section>
-<script src="../js/main.js"></script>
-</body>
+    <main class="main-cart">
+        <h2 class="tucarrito">Tu carrito</h2>
+        <div id="cart-container" class="cart-container"></div>
+    </main>
+    <script src="../js/cart.js"></script>
+    </body>
 </html>

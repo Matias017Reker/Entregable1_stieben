@@ -89,36 +89,6 @@ p {
     background-color: var(--color_primario_suave);
 }
 
-.btn-2 {
-    background-color:  var(--color_primario);
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 0.25rem;
-    max-height: 4rem;
-}
-
-.btn-2:hover {
-    background-color: var(--color_primario_suave);
-}
-
-.btn-3 {
-    background-color:  var(--color_primario);
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 0.25rem;
-    max-height: 4rem;
-}
-
-.btn-3:hover {
-    background-color: var(--color_primario_suave);
-}
-
 #comprar-btn {
     margin: 2rem 46%;
     padding: 10px 20px;
@@ -157,6 +127,7 @@ body{
 }
 a{
     text-decoration: none;
+    border-radius: 1rem;
 }
 ol,ul{
     list-style: none;
@@ -236,4 +207,199 @@ ol,ul{
     .link:hover{
         background-color: var(--color_primario_suave);
     }
+}
+
+/* Carrito */
+
+.tucarrito{
+    color: #e2e2e2;
+    padding: 10px;
+    text-align: center;
+}
+
+.carrito-vacio {
+    color: #e2e2e2;
+    padding: 10px;
+    text-align: center;
+}
+
+#cart-widget {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    padding: 5px 10px;
+}
+#cart-widget span {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    background-color: #ff0000; 
+    color: #fff;
+    font-size: 16px; 
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.cart-container .card {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+}
+
+.card-carrito {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #f1f1f1;
+    border-left: 5px solid #2196f3;
+    border-radius: 10px;
+}
+
+.card-carrito h4,
+.card-carrito p {
+    margin: 0 1rem;
+    flex: 1;
+}
+
+.card-carrito p:last-child {
+    font-weight: bold;
+}
+
+.btn-cantidad {
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10%;
+    background-color: #19b43b;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+}
+
+.btn-cantidad:hover {
+    color: #ffffff;
+    background-color: #14411e;
+}
+
+.btn-comprar {
+    align-self: center;
+    padding: 10px;
+    margin: 1rem;
+    width: 50%;
+    border-radius: 0.5rem;
+    background-color: #19b43b;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+}
+
+.btn-comprar:hover {
+    color: #ffffff;
+    background-color: #14411e;
+}
+
+/* Carrusel */
+
+.titulo-carrusel{
+    color: rgb(255, 255, 255);
+}
+
+.carrusel-section {
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #1a1a1a;
+}
+
+.carrusel-titulo {
+    color: #e2e2e2;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+#carrusel-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 60px;
+    box-sizing: border-box;
+}
+
+#carrusel-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    transition: transform 0.5s ease;
+}
+
+.card-carrusel {
+    width: 200px;
+    padding: 10px;
+    background-color: #696969;
+    border: 1px solid #444;
+    box-shadow: 0 0 8px #9ec299;
+    border-radius: 10px;
+    text-align: center;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+.card-carrusel img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card-carrusel.active {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.card-carrusel-centro {
+    transform: scale(1.15);
+    z-index: 2;
+    box-shadow: 0 0 8px #41b132;
+}
+
+.carrusel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background: rgba(255,255,255,0.2);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+    color: white;
+}
+.carrusel-btn:hover {
+    background-color: #666;
+    color: #19b43b;
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
 }

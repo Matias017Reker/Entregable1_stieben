@@ -2,7 +2,7 @@
     {
     "id": 1,
     "nombre": "Mclaren570S",
-    "precio": 90,
+    "precio": 20,
     "cantidad": 10,
     "categoria": "auto",
     "disponible": true,
@@ -11,7 +11,7 @@
     {
     "id": 2,
     "nombre": "F4 Phantom",
-    "precio": 100,
+    "precio": 35,
     "cantidad": 5,
     "categoria": "avion",
     "disponible": false,
@@ -92,7 +92,7 @@
     {
     "id": 11,
     "nombre": "Chevy Nova Yenko 1969",
-    "precio": 80,
+    "precio": 15,
     "cantidad": 3,
     "categoria": "auto",
     "disponible": true,
@@ -101,7 +101,7 @@
     {
     "id": 12,
     "nombre": "Shelby Gt 350 R 1966",
-    "precio": 30,
+    "precio": 16,
     "cantidad": 14,
     "categoria": "auto",
     "disponible": true,
@@ -245,7 +245,7 @@
     {
     "id": 28,
     "nombre": " Lamborghini Countach LP500S",
-    "precio": 15,
+    "precio": 25,
     "cantidad": 34,
     "categoria": "auto",
     "disponible": true,
@@ -263,7 +263,7 @@
     {
     "id": 30,
     "nombre": "71 Mustang Boss 351",
-    "precio": 34,
+    "precio": 24,
     "cantidad": 12,
     "categoria": "auto",
     "disponible": true,
